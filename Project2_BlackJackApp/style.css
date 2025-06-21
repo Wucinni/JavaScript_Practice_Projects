@@ -1,0 +1,60 @@
+/* Basic reset on default values */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element styles */
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #333, crimson);
+}
+
+/* CLASS STYLES */
+.title-header {
+    color: goldenrod;
+    font-weight: bolder;
+    text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+}
+
+.main-app-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+.playButton {
+    color: whitesmoke;
+    background-color: green;
+    border-radius: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+}
+
+.cards {
+    color: black;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
