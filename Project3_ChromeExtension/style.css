@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgoldenrod;
+    min-width: 400px;
+}
+
+input {
+    display: block;
+    border-color: green;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+}
+
+input:focus {
+    background-color: lightgray;
+}
+
+button {
+    border-radius: 10px;
+    border-color: antiquewhite;
+    background-color: darkgreen;
+    color: whitesmoke;
+    margin-top: 3px;
+    font-weight: bold;
+    padding: 2px;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: darkgreen;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 3px;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 3px;
+}
+
+li a {
+    color: whitesmoke;
+}
