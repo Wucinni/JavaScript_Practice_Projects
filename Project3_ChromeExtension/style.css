@@ -57,3 +57,12 @@ li {
 li a {
     color: whitesmoke;
 }
+
+#deleteButton {
+    background-color: red;
+}
+
+#saveTabButton {
+    background-color: darkorange;
+    color: white;
+}
